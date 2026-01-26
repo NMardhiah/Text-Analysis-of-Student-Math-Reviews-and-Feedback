@@ -1,0 +1,21 @@
+Text Analysis of Student Feedback on "Mathematics"
+
+1. Primary Cognitive Goals: The "Understand" Factor
+The Word Cloud and frequency data reveal that "understand" is one of the most prominent terms. This suggests that students are not merely looking for shortcuts or a passing grade; they are deeply concerned with conceptual clarity. This correlates with the frequent co-occurrence of "practice" and "exercises," indicating a recognition that mastery comes through repetitive application.
+
+2. Sentiment Analysis: Scared but Motivated
+The sentiment analysis results show a unique "Emotional Ambivalence." While the VADER scores lean positive overall due to phrases like "will try my best" and "excited to learn," the text analysis highlights a significant undercurrent of math anxiety.
+Insights: Words like "scared," "traumatized," and "worried" often appear alongside mentions of "SPM" or "Addmaths," suggesting that student anxiety is rooted in past academic experiences rather than the current course content.
+
+3. Dependency on Instructional Support
+The prominence of the word "Dr" and "Lecturer" in the word cloud, combined with its high co-occurrence with "hope" and "help," signifies a high level of trust and dependency on the instructor. Students see the lecturer as the primary bridge to overcoming their perceived weaknesses in mathematics.
+
+
+Recommendations 
+
+1. Foundational Support: Since "Addmaths" and "SPM" are significant themes, a brief refresher on basic concepts at the start of the semester would likely lower the class anxiety.
+
+2. Guided Practice: Because "understand" and "practice" are linked, providing step-by-step solutions or drills will satisfy the students' primary learning goals.
+
+3.Emotional Reassurance: Acknowledging their "fear" openly can validate their feelings and strengthen the student-lecturer bond, which the data shows is very important to them.
+
