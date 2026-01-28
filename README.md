@@ -1,22 +1,22 @@
 ## Key Insights from Analysis
 Through the NLP pipeline, several critical patterns were identified:
 
-**The "Practice" Correlation**: Word co-occurrence mapping showed that the term "Understand" was most frequently linked with "Practice" and "Exercises." This suggests students view repetitive application as the primary path to comprehension.
+- **The "Practice" Correlation**: Word co-occurrence mapping showed that the term "Understand" was most frequently linked with "Practice" and "Exercises." This suggests students view repetitive application as the primary path to comprehension.
 
-**Sentiment Tension**: While overall sentiment remained cautiously optimistic (high frequency of "Hope"), subjectivity scoring revealed that topics involving "Calculations" triggered the highest levels of negative polarity, correlating with "math anxiety."
+- **Sentiment Tension**: While overall sentiment remained cautiously optimistic (high frequency of "Hope"), subjectivity scoring revealed that topics involving "Calculations" triggered the highest levels of negative polarity, correlating with "math anxiety."
 
-**Aspiration vs. Reality**: The Word Cloud highlights that while students are "Worried," their goal is mastery ("Best," "Understand"), indicating a high level of student engagement despite the perceived difficulty.
+- **Aspiration vs. Reality**: The Word Cloud highlights that while students are "Worried," their goal is mastery ("Best," "Understand"), indicating a high level of student engagement despite the perceived difficulty.
 
 ## Technical Methodology
 This project follows a standard NLP workflow:
 
-**Data Cleaning**: Removal of stop-words and noise from student reviews.
+- **Data Cleaning**: Removal of stop-words and noise from student reviews.
 
-**Translation**: Normalizing multilingual feedback (Malay to English) for consistent processing.
+- **Translation**: Normalizing multilingual feedback (Malay to English) for consistent processing.
 
-**Tokenization & Frequency Mapping**: Using NLTK to break down text and identify dominant themes.
+- **Tokenization & Frequency Mapping**: Using NLTK to break down text and identify dominant themes.
 
-**Sentiment Scoring**: Applying the VADER (Valence Aware Dictionary and sEntiment Reasoner) Lexicon to assign polarity scores to each review.
+- **Sentiment Scoring**: Applying the VADER (Valence Aware Dictionary and sEntiment Reasoner) Lexicon to assign polarity scores to each review.
 
 ## Tools Used
 **Language**: Python 3.x
