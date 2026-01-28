@@ -7,3 +7,4 @@ The analysis is built on three primary pillars:
 **Sentiment Analysis**: Using polarity and subjectivity scoring, this project quantifies the emotional tone of reviews. This helps identify which specific topics in the math curriculum trigger the highest levels of "math anxiety" versus those that foster confidence.
 
 **Visual Frequency Mapping (Word Clouds)**: To provide an immediate, intuitive summary of the dataset, we generate Word Clouds that highlight the most prominent themes and terminology used by students, filtered for mathematical relevance.
+<img width="1000" height="500" alt="student_feedback_wordcloud" src="https://github.com/user-attachments/assets/41459927-0578-4585-aab5-ff40894a59e6" />
