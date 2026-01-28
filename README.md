@@ -1,10 +1,33 @@
-# Text Analysis of Student Math Reviews and Feedback
-This project applies Natural Language Processing (NLP) to analyze how students review and discuss mathematical concepts. By extracting insights from text data, this research aims to bridge the gap between curriculum design and student perception.
+## Key Insights from Analysis
+Through the NLP pipeline, several critical patterns were identified:
 
-The analysis is built on three primary pillars:
-**Word Co-occurrence Analysis**: We move beyond simple word counts to examine the relationships between terms. By mapping how often specific math concepts (e.g., "Calculus") appear alongside descriptive adjectives (e.g., "abstract," "logical," "repetitive"), we can visualize the mental models students use.
+The "Practice" Correlation: Word co-occurrence mapping showed that the term "Understand" was most frequently linked with "Practice" and "Exercises." This suggests students view repetitive application as the primary path to comprehension.
 
-**Sentiment Analysis**: Using polarity and subjectivity scoring, this project quantifies the emotional tone of reviews. This helps identify which specific topics in the math curriculum trigger the highest levels of "math anxiety" versus those that foster confidence.
+Sentiment Tension: While overall sentiment remained cautiously optimistic (high frequency of "Hope"), subjectivity scoring revealed that topics involving "Calculations" triggered the highest levels of negative polarity, correlating with "math anxiety."
 
-**Visual Frequency Mapping (Word Clouds)**: To provide an immediate, intuitive summary of the dataset, we generate Word Clouds that highlight the most prominent themes and terminology used by students, filtered for mathematical relevance.
+Aspiration vs. Reality: The Word Cloud highlights that while students are "Worried," their goal is mastery ("Best," "Understand"), indicating a high level of student engagement despite the perceived difficulty.
+
+## Technical Methodology
+This project follows a standard NLP workflow:
+
+Data Cleaning: Removal of stop-words and noise from student reviews.
+
+Translation: Normalizing multilingual feedback (Malay to English) for consistent processing.
+
+Tokenization & Frequency Mapping: Using NLTK to break down text and identify dominant themes.
+
+Sentiment Scoring: Applying the VADER (Valence Aware Dictionary and sEntiment Reasoner) Lexicon to assign polarity scores to each review.
+
+## Tools Used
+Language: Python 3.x
+
+Libraries: * Pandas (Data manipulation)
+
+Matplotlib/WordCloud (Visualization)
+
+NLTK (Natural Language Toolkit)
+
+VADER (Sentiment Analysis)
+
+
 <img width="1000" height="500" alt="student_feedback_wordcloud" src="https://github.com/user-attachments/assets/41459927-0578-4585-aab5-ff40894a59e6" />
